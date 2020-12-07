@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+    <Style id="z1">
+		<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+	</Style>
+    <Placemark>
+      <name>Hull</name>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates> 
+            -118.282798,34.021717,10 
+            -118.285446,34.020559,10
+            -118.285446,34.020559,10
+            -118.288018,34.019181,10
+            -118.286604,34.018685,10
+            -118.284279,34.018672,10
+            -118.282497,34.018675,10
+            -118.276428,34.019044,10 
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark><name>Accounting_Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285541,34.019213</coordinates></Point>
+	</Placemark>
+<Placemark><name>Architecture_L</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288018,34.019181</coordinates></Point>
+</Placemark>
+<Placemark><name>Cinematic_Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283545,34.020078</coordinates></Point>
+</Placemark>
+<Placemark><name>Doheny_Mem_Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283744,34.020042</coordinates></Point>
+</Placemark>
+<Placemark><name>Special_Collect</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283600,34.019940</coordinates></Point>
+</Placemark>
+<Placemark><name>Gaughan_Tib_Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282497,34.018675</coordinates></Point>
+</Placemark>
+<Placemark><name>Grand_Avenue_L</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.276428,34.019044</coordinates></Point>
+</Placemark>
+<Placemark><name>Law_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.284279,34.018672</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavey_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.282798,34.021717</coordinates></Point>
+</Placemark>
+<Placemark><name>Music_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.283736,34.020141</coordinates></Point>
+</Placemark>
+<Placemark><name>Hoose_Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.286604,34.018685</coordinates></Point>
+</Placemark>
+<Placemark><name>Science_Eng_Lib</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.288798,34.019606</coordinates></Point>
+</Placemark>
+<Placemark><name>Tommy_Trojan</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.285446,34.020559</coordinates></Point>
+</Placemark>
+  </Document>
+</kml>
